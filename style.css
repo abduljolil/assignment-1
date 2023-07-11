@@ -130,3 +130,36 @@ display: flex;
  #btn{ 
     padding-left: 16px;
  }
+ /* footer relettive style */
+ .shop-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 1922px;
+   height: 449px;
+   background: #111010;
+   color: #FFF; 
+ }
+ .shop-title{
+    color:wheat
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+ }
+ .content{
+    color: #E55473;
+ }
+ .shop-description{
+   color: rgba(255, 255, 255, 0.90);
+   font-size: 18px;
+   text-align: center;
+   font-weight: 400;
+   line-height: 30px;
+   padding: 24px 0px 24px 0px;
+ }
+ .shop-end{
+   color: rgba(255, 255, 255, 0.40);
+   font-size: 16px;
+   font-weight: 400;
+   text-align: center;
+ }
