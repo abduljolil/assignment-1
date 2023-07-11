@@ -96,3 +96,37 @@ display: flex;
     width: 342px;
     height: 396px;
  }
+ /* Get The Latest Deals */
+ .Deals-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("./img/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 449px;
+    margin-top: 128px;
+  }
+ .title-deals{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+
+ }
+ .deals-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 16px 0px 48px 0px;
+ }
+ .email{
+    width: 700px;
+    height: 64px;
+
+ }
+ #btn{ 
+    padding-left: 16px;
+ }
