@@ -221,10 +221,34 @@ display: flex;
    line-height: 30px;
    padding: 24px 0px 24px 0px;
  }
- .shop-end{
-   color: rgba(255, 255, 255, 0.40);
-   font-size: 16px;
-   font-weight: 400;
+ .hovertext {
+   position: relative;
+ }
+ 
+ .hovertext:before {
+   content: attr(data-hover);
+   visibility: hidden;
+   opacity: 0;
+   width: 140px;
+   background-color:blue;
+   color: #fff;
+   text-align: center;
+   border-radius: 5px;
+   padding: 5px 0;
+   transition: opacity 1s ease-in-out;
+ 
+   position: absolute;
+   z-index: 1;
+   left: 0;
+   top: 110%;
+ }
+ 
+ .hovertext:hover:before {
+   opacity: 1;
+   visibility: visible;
+ }
+ .footer-end{
    text-align: center;
  }
+ 
  
